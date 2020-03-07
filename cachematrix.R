@@ -1,5 +1,8 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The first function creates an object in its environment to which the inverse
+# can be cached and other functions to get the original obeject and its previous
+# The second function first checks if the inverse is present in the cache. 
+# If not, it calculates the inverse and saves it to the enclosing environment.
+# not sure how it would handle edits to the original matrix
 
 ## This function creates a special matrix object that can cache its inverse
 
